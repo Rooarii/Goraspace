@@ -216,23 +216,7 @@ main{
     .smallLogo-active{
         transform: rotate(180deg);
     }
-    .team-card{
-        width: 500px;
-        height: 400px;
-        background-color: var(--card-background-color);
-        text-align: center;
-        margin: 20px;
-        margin-top: 20px;
-        padding: 50px;
-        margin-bottom: 50px;
-        border-radius: 20px;
-    }
-    .container-team-card{
-        display: flex;
-        flex-wrap: wrap;
-        margin: 20px;
     
-    }
 }
 
 /*ARTICLE*/
@@ -345,19 +329,22 @@ li {
 .team-title{
     color: var(--primary-color-purple);
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .team-card{
     /*width: 500px;
     height: 400px;*/
     background-color: var(--card-background-color);
-    margin: auto;
+    margin: 10px;
     text-align: center;
     margin-top: 20px;
     padding: 50px;
     margin-bottom: 50px;
-    border-radius: 20px;
+}
+.center{
+    display: flex;
+    justify-content: center;
 }
 
 .container-team-card{
@@ -374,6 +361,7 @@ h2{
     color: var(--primary-color-blue);
     font-size: 30px;
 }
+
 
 /*contact*/
 
