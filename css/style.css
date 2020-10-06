@@ -75,10 +75,10 @@ html{
 /* main */
 main{
     background-color: black;
-    height: 87vh;
+    /*height: 87vh;*/
 }
 .wrap {
-    height: 90vh;
+    /*height: 90vh;*/
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -237,9 +237,9 @@ main{
         text-align: center;
         margin: 20px;
         margin-top: 20px;
-        padding: 50px;
+        /*padding: 50px;*/
         margin-bottom: 50px;
-        border-radius: 20px;
+        border-radius: 20px 20px 0px 0px;
     }
     .container-team-card{
         display: flex;
@@ -262,17 +262,17 @@ main{
 }
 .article-container{
     background-color: var(--card-background-color);
-    width: 60%;
+    width: 70%;
     margin: auto;
-    padding: 20px;
+    padding-bottom: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
 }
-img{
+.main-img-article{
     display: flex;
     margin: auto;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
     width: 100%;   
 }
 .text-container{
@@ -295,6 +295,7 @@ section{
 
 .link-article{
     text-align: end;
+    padding-right: 20px;
 
 }
 a.link:link{
@@ -363,32 +364,42 @@ li {
 }
 
 .team-card{
-    /*width: 500px;
-    height: 400px;*/
+    width: auto;
+    height: auto;
     background-color: var(--card-background-color);
     margin: auto;
     text-align: center;
     margin-top: 20px;
-    padding: 50px;
+    /*padding: 50px;*/
     margin-bottom: 50px;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+img.img-team{
+    border-radius: 20px 20px 0px 0px;
 }
 
 .container-team-card{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 
 h4{
     color: var(--primary-color-pink);
+    margin: 0%;
+    font-size: 1em;
 }
 
 h2{
     color: var(--primary-color-blue);
-    font-size: 30px;
+    font-size: 2em;
+    margin: 0%;
 }
 
+.spacebetween{
+    margin: 5%;
+}
 /*contact*/
 
 .form {
@@ -535,3 +546,5 @@ textarea{
       }
       
 }
+
+/*____________________________________________________________________________________________*/
